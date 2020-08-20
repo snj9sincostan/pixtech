@@ -1,0 +1,54 @@
+/******************************************************************
+
+Stylesheet: ベーススタイル
+
+******************************************************************/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #333;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.section-wrap {
+  padding: 60px 0 70px;
+}
+
+.section-wrap-bg {
+  background-size: cover;
+  background-position: center;
+  padding: 60px 0 70px;
+}
+
+.heading {
+  font-size: 37px;
+  text-align: center;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  border-radius: 9999px;
+  color: #fff;
+}
+
+.box {
+  max-width: 310px;
+}
